@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             FarmerTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "Welcome to this app",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
